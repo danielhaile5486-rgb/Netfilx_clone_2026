@@ -5,11 +5,3 @@
 .App {
   text-align: center;
 }
-.App .netflix_logo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 120px;
-  height: auto;
-  z-index: 1000;
-}
