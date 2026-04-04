@@ -1,0 +1,83 @@
+/* Header.css - Simple Version */
+
+/* Outer Container */
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 40px;
+  z-index: 1000;
+}
+
+/* Inner Container */
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Left Menu */
+.header_left ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.header_left li {
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.header_left li:hover {
+  color: #e50914;
+}
+
+/* Logo */
+.header_left .logo img {
+  width: 100px;
+  display: block;
+}
+
+/* Right Menu */
+.header_right ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.header_right li {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header_right li:hover {
+  color: #e50914;
+}
+
+.header_right svg {
+  font-size: 24px;
+  color: white;
+}
+
+.header_right li:hover svg {
+  color: #e50914;
+}
+
+/* Make sure all text is visible */
+.header_left li,
+.header_right li {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+}
